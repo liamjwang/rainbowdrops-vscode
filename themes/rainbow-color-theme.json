@@ -15,7 +15,6 @@
             "name": "Keyword",
             "scope": [
                 "constant.language",
-                "entity.name.function.preprocessor",
                 "entity.name.operator.type",
                 "entity.name.tag.block.any.html",
                 "entity.name.tag.css",
@@ -104,6 +103,15 @@
             "settings": {
                 "foreground": "#DD2867",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor",
+            ],
+            "settings": {
+                "foreground": "#808080",
             }
         },
         {
