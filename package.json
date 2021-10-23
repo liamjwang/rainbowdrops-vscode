@@ -1,8 +1,10 @@
 {
-    "name": "rainbow-color-theme",
-    "displayName": "Rainbow Color Theme",
-    "description": "Rainbow color theme for VS Code",
+    "name": "rainbow-drops-color-theme",
+    "displayName": "Rainbow Drops",
+    "description": "Rainbow Drops color theme from Eclipse for VS Code",
     "version": "0.0.1",
+    "publisher": "LiamWang",
+    "repository": "https://github.com/liamjwang/rainbowdrops-vscode",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -12,7 +14,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Rainbow",
+                "label": "RainbowDrops",
                 "uiTheme": "vs-dark",
                 "path": "./themes/rainbow-color-theme.json"
             }
