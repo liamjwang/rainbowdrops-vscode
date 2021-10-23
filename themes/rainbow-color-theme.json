@@ -111,7 +111,8 @@
                 "entity.name.function.preprocessor",
             ],
             "settings": {
-                "foreground": "#808080",
+                "foreground": "#798181",
+                "fontStyle": ""
             }
         },
         {
@@ -143,6 +144,8 @@
                 "meta.function.parameter.typehinted.php storage.type.php",
                 "meta.preprocessor.include string.quoted.double.include",
                 "meta.preprocessor.include string.quoted.other.lt-gt.include",
+                "meta.preprocessor.include punctuation.definition.string.begin",
+                "meta.preprocessor.include punctuation.definition.string.end",
                 "meta.use.php entity.other.alias.php",
                 "source.js support.constant",
                 "storage.modifier.import",
@@ -261,6 +264,7 @@
         {
             "name": "Property, Field",
             "scope": [
+                "punctuation.support.type.property-name",
                 "entity.name.record.field.accessor.elm",
                 "entity.name.record.field.elm",
                 "entity.name.tag",
@@ -566,8 +570,6 @@
                 "meta.brace.square.js",
                 "meta.embedded.line.js punctuation.definition.string.begin.html",
                 "meta.embedded.line.js punctuation.definition.string.end.html",
-                "meta.preprocessor.include punctuation.definition.string.begin",
-                "meta.preprocessor.include punctuation.definition.string.end",
                 "meta.tag",
                 "punctuation",
                 "punctuation.definition.string.begin.markdown",
