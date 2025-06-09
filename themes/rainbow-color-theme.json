@@ -98,7 +98,33 @@
                 "storage.type.ts",
                 "storage.type.union",
                 "support.function.racket",
-                "variable.language"
+                "variable.language",
+                "keyword.package.go",
+                "keyword.import.go",
+                "keyword.type.go",
+                "keyword.var.go",
+                "keyword.const.go",
+                "keyword.func.go",
+                "keyword.struct.go",
+                "keyword.interface.go",
+                "keyword.map.go",
+                "keyword.range.go",
+                "keyword.select.go",
+                "keyword.case.go",
+                "keyword.switch.go",
+                "keyword.break.go",
+                "keyword.continue.go",
+                "keyword.fallthrough.go",
+                "keyword.return.go",
+                "keyword.defer.go",
+                "keyword.go.go",
+                "keyword.goto.go",
+                "keyword.if.go",
+                "keyword.else.go",
+                "keyword.for.go",
+                "keyword.in.go",
+                "keyword.default.go",
+                "keyword.channel.go"
             ],
             "settings": {
                 "foreground": "#DD2867",
@@ -158,7 +184,13 @@
                 "variable.other.class.js",
                 "variable.other.object",
                 "variable.other.readwrite.alias.js",
-                "variable.type.elm"
+                "variable.type.elm",
+                "entity.name.type.struct.go",
+                "entity.name.type.interface.go",
+                "entity.name.type.go",
+                "storage.type.struct.go",
+                "storage.type.interface.go",
+                "storage.type.go"
             ],
             "settings": {
                 "foreground": "#1290C3",
@@ -243,7 +275,9 @@
                 "variable.other.enummember",
                 "variable.other.global",
                 "variable.other.makefile",
-                "variable.source.cmake"
+                "variable.source.cmake",
+                "constant.other.go",
+                "constant.language.go"
             ],
             "settings": {
                 "foreground": "#66D9EF",
@@ -297,7 +331,10 @@
                 "variable.other.object.property",
                 "variable.other.property",
                 "variable.other.property.cli",
-                "variable.other.readwrite.instance"
+                "variable.other.readwrite.instance",
+                "string.quoted.double.go",
+                "string.quoted.raw.go",
+                "string.quoted.single.go"
             ],
             "settings": {
                 "foreground": "#66E1F8",
@@ -331,7 +368,11 @@
                 "meta.function.type-declaration.elm entity.name.function.elm",
                 "meta.method.identifier entity.name.function",
                 "source.asm entity.name.function",
-                "source.x86 keyword.label.assembly"
+                "source.x86 keyword.label.assembly",
+                "entity.name.function.go",
+                "meta.function.declaration.go",
+                "meta.function.receiver.go",
+                "meta.function.parameters.go"
             ],
             "settings": {
                 "foreground": "#1EB540",
@@ -447,7 +488,9 @@
                 "variable.other.readwrite",
                 "variable.other.readwrite.cs",
                 "variable.other.ruby",
-                "variable.scss"
+                "variable.scss",
+                "variable.other.go",
+                "variable.parameter.go"
             ],
             "settings": {
                 "foreground": "#FFBF26",
@@ -468,7 +511,10 @@
                 "source.ini",
                 "source.makefile",
                 "string",
-                "text"
+                "text",
+                "string.quoted.double.go",
+                "string.quoted.raw.go",
+                "string.quoted.single.go"
             ],
             "settings": {
                 "foreground": "#17C6A3",
@@ -523,7 +569,8 @@
                 "support.constant.color.w3c-extended-color-name.css",
                 "support.constant.color.w3c-standard-color-name.css",
                 "support.constant.font-name.css",
-                "support.constant.property-value.css"
+                "support.constant.property-value.css",
+                "constant.numeric.go"
             ],
             "settings": {
                 "foreground": "#6897BB",
@@ -585,7 +632,8 @@
                 "storage.modifier.reference",
                 "storage.type.function.arrow",
                 "storage.type.generic.wildcard",
-                "support.constant"
+                "support.constant",
+                "punctuation.definition.comment"
             ],
             "settings": {
                 "foreground": "#F9FAF4",
@@ -596,7 +644,9 @@
             "name": "Comment",
             "scope": [
                 "comment",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "comment.line.double-slash.go",
+                "comment.block.go"
             ],
             "settings": {
                 "foreground": "#626262",
