@@ -124,7 +124,9 @@
                 "keyword.for.go",
                 "keyword.in.go",
                 "keyword.default.go",
-                "keyword.channel.go"
+                "keyword.channel.go",
+                "entity.name.function.support.builtin.go",
+                "variable.parameter.function.language.special.self.python",
             ],
             "settings": {
                 "foreground": "#DD2867",
@@ -231,7 +233,7 @@
                 "punctuation.definition.annotation",
                 "source.x86 support.constant.subsections",
                 "storage.type.annotation",
-                "support.function.macro.julia"
+                "support.function.macro.julia",
             ],
             "settings": {
                 "foreground": "#FF9393",
@@ -351,7 +353,7 @@
                 "entity.name.function.graphql",
                 "entity.name.function.julia",
                 "entity.name.function.python",
-                "support.function.magic.python",
+                "meta.function.python support.function.magic.python",
                 "entity.name.function.racket",
                 "entity.name.function.target.makefile",
                 "entity.name.function.top_level.elm",
@@ -392,7 +394,7 @@
                 "meta.parameter.initialization entity.name.function.member",
                 "meta.function.method.with-arguments meta.function-call entity.name.function",
                 "meta.function-call entity.name.function",
-                "meta.function-call meta.function-call.generic",
+                "meta.function-call",
                 "meta.function-call support.function.builtin",
                 "meta.function-call variable.legacy.builtin",
                 "meta.function-call.js entity.name.function.js",
@@ -417,7 +419,7 @@
         {
             "name": "Static Function Call",
             "scope": [
-                "meta.function-call support.function",
+                // "meta.function-call support.function",
                 "meta.method-call.static entity.name.function",
                 "support.function.construct.output.php",
                 "support.function.js",
@@ -492,6 +494,7 @@
                 "variable.other.ruby",
                 "variable.scss",
                 "variable.other.go",
+                "entity.name.type.package.go",
                 "variable.other.assignment.go",
                 "variable.other.object",
                 "variable.parameter.go"
