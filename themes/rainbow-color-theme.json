@@ -375,7 +375,8 @@
                 "entity.name.function.go",
                 "meta.function.declaration.go",
                 "meta.function.receiver.go",
-                "meta.function.parameters.go"
+                "meta.function.parameters.go",
+                "entity.name.function.shell"
             ],
             "settings": {
                 "foreground": "#1EB540",
@@ -497,6 +498,8 @@
                 "entity.name.type.package.go",
                 "variable.other.assignment.go",
                 "variable.other.object",
+                "variable.other.assignment.shell",
+                "variable.other.normal.shell",
                 "variable.parameter.go"
             ],
             "settings": {
