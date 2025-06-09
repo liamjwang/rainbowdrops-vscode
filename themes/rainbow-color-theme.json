@@ -104,7 +104,7 @@
                 "keyword.type.go",
                 "keyword.var.go",
                 "keyword.const.go",
-                "keyword.func.go",
+                "keyword.function.go",
                 "keyword.struct.go",
                 "keyword.interface.go",
                 "keyword.map.go",
@@ -182,7 +182,7 @@
                 "support.type",
                 "support.type.object.module.js keyword.operator.accessor.js",
                 "variable.other.class.js",
-                "variable.other.object",
+                // "variable.other.object",
                 "variable.other.readwrite.alias.js",
                 "variable.type.elm",
                 "entity.name.type.struct.go",
@@ -351,6 +351,7 @@
                 "entity.name.function.graphql",
                 "entity.name.function.julia",
                 "entity.name.function.python",
+                "support.function.magic.python",
                 "entity.name.function.racket",
                 "entity.name.function.target.makefile",
                 "entity.name.function.top_level.elm",
@@ -405,7 +406,8 @@
                 "support.function.core",
                 "support.function.julia",
                 "support.function.kernel",
-                "text.tex.latex support.function"
+                "text.tex.latex support.function",
+                "entity.name.function.support.go"
             ],
             "settings": {
                 "foreground": "#A7EC21",
@@ -490,6 +492,8 @@
                 "variable.other.ruby",
                 "variable.scss",
                 "variable.other.go",
+                "variable.other.assignment.go",
+                "variable.other.object",
                 "variable.parameter.go"
             ],
             "settings": {
