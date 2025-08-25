@@ -190,6 +190,7 @@
                 "entity.name.type.struct.go",
                 "entity.name.type.interface.go",
                 "entity.name.type.go",
+                "entity.name.type",
                 "storage.type.struct.go",
                 "storage.type.interface.go",
                 "storage.type.go"
@@ -346,13 +347,14 @@
         {
             "name": "Function, Constructor Declaration",
             "scope": [
+                "entity.name.function",
                 "entity.name.function.binding.ocaml",
                 "entity.name.function.cs",
                 "entity.name.function.definition",
                 "entity.name.function.definition.special.constructor",
                 "entity.name.function.graphql",
                 "entity.name.function.julia",
-                "entity.name.function.python",
+                "entity.name.function.rust",
                 "meta.function.python support.function.magic.python",
                 "entity.name.function.racket",
                 "entity.name.function.target.makefile",
@@ -387,6 +389,7 @@
             "name": "Function, Constructor Call",
             "scope": [
                 "entity.name.function.call",
+                "entity.name.function.macro",
                 "entity.name.type.instance.js",
                 "keyword.cmake",
                 "meta.at-rule.include.scss entity.name.function.scss",
@@ -399,6 +402,7 @@
                 "meta.function-call support.function.builtin",
                 "meta.function-call variable.legacy.builtin",
                 "meta.function-call.js entity.name.function.js",
+                "meta.function.call.rust entity.name.function.rust",
                 "meta.method-call entity.name.function",
                 "meta.method-call.static.php meta.method-call.php entity.name.function.php",
                 "meta.list.racket",
@@ -433,7 +437,8 @@
         },
         {
             "name": "Abstract Function Call",
-            "scope": [],
+            "scope": [
+            ],
             "settings": {
                 "foreground": "#80F6A7",
                 "fontStyle": ""
@@ -441,7 +446,9 @@
         },
         {
             "name": "Inherited Function Call",
-            "scope": [],
+            "scope": [
+
+            ],
             "settings": {
                 "foreground": "#CDF668",
                 "fontStyle": ""
@@ -479,6 +486,7 @@
                 "source.asm constant.language.register",
                 "source.directive.vue variable.other.readwrite.js",
                 "source.julia",
+                "source.rust",
                 "source.julia meta.array.julia",
                 "source.ocaml source.ocaml",
                 "source.python",
@@ -516,8 +524,9 @@
                 "entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css",
                 "punctuation.definition.char.begin",
                 "punctuation.definition.char.end",
-                "punctuation.definition.string.begin",
-                "punctuation.definition.string.end",
+                "punctuation.definition.string",
+                // "punctuation.definition.string.begin",
+                // "punctuation.definition.string.end",
                 "source.ini",
                 "source.makefile",
                 "string",
@@ -555,6 +564,7 @@
         {
             "name": "Constant Character",
             "scope": [
+                "punctuation.definition.interpolation",
                 "constant.character",
                 "constant.character.escape",
                 "constant.other",
