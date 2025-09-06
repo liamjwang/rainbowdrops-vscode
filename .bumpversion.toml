@@ -21,4 +21,4 @@ pre_commit_hooks = []
 post_commit_hooks = []
 
 [files]
-"package.json" = "version"
+"package.json" = "package.json"
