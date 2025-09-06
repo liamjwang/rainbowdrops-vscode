@@ -20,5 +20,5 @@ setup_hooks = []
 pre_commit_hooks = []
 post_commit_hooks = []
 
-[files]
-"package.json" = "package.json"
+[[tool.bumpversion.files]]
+filename = "package.json"
