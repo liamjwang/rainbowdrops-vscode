@@ -1,9 +1,8 @@
 # publishing
-
-# bump version
 # vsce login LiamWang
-# vsce publish
 
+bump
+vsce publish
 
 # manual install
 
