@@ -2,7 +2,7 @@
     "name": "rainbow-drops-color-theme",
     "displayName": "RainbowDrops Theme",
     "description": "RainbowDrops color theme from Eclipse for VS Code. Forked from https://github.com/pitcer/rainbow-color-theme",
-    "version": "0.0.8", 
+    "version": "0.0.9", 
     "publisher": "LiamWang",
     "repository": "https://github.com/liamjwang/rainbowdrops-vscode",
     "engines": {
