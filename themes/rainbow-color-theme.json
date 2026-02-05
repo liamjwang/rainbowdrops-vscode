@@ -8,7 +8,11 @@
         "editor.selectionBackground": "#3E515D",
         "editor.selectionForeground": "#44CEEF",
         "editor.lineHighlightBackground": "#31312A",
-        "editorCursor.foreground": "#BBBBBB"
+        "editorCursor.foreground": "#BBBBBB",
+        "diffEditor.insertedTextBackground": "#b3ff0005",
+        "diffEditor.removedTextBackground": "#ff000011",
+        "diffEditor.insertedLineBackground": "#b3ff001e",
+        "diffEditor.removedLineBackground": "#ff00001e"
     },
     "tokenColors": [
         {
