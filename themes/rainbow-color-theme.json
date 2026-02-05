@@ -9,10 +9,10 @@
         "editor.selectionForeground": "#44CEEF",
         "editor.lineHighlightBackground": "#31312A",
         "editorCursor.foreground": "#BBBBBB",
-        "diffEditor.insertedTextBackground": "#b3ff0011",
-        "diffEditor.removedTextBackground": "#ff000011",
-        "diffEditor.insertedLineBackground": "#b3ff001e",
-        "diffEditor.removedLineBackground": "#ff00001e"
+        "diffEditor.insertedTextBackground": "#b3ff0022",
+        "diffEditor.removedTextBackground": "#ff000033",
+        "diffEditor.insertedLineBackground": "#b3ff0009",
+        "diffEditor.removedLineBackground": "#ff000011"
     },
     "tokenColors": [
         {
@@ -687,7 +687,7 @@
                 "comment.block.go"
             ],
             "settings": {
-                "foreground": "#626262",
+                "foreground": "#8d8b8b",
                 "fontStyle": ""
             }
         }
