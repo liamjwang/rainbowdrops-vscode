@@ -329,7 +329,6 @@
                 "entity.name.variable.property",
                 "entity.other.attribute-name.html",
                 "keyword.other.definition.ini",
-                "markup.list meta.paragraph.markdown",
                 "meta.block.js entity.name.label.js",
                 "meta.function.json.arrow.js entity.name.function.js",
                 "meta.object-literal.key.js",
