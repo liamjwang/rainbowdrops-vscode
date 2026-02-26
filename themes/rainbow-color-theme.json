@@ -288,7 +288,7 @@
                 "constant.other.enum",
                 "constant.other.php",
                 "entity.name.constant.racket",
-                "entity.name.section.markdown",
+                // "entity.name.section.markdown",
                 "entity.name.variable.enum-member",
                 "support.constant.core.php",
                 "support.constant.media.css",
@@ -547,8 +547,9 @@
                 // "punctuation.definition.string.end",
                 "source.ini",
                 "source.makefile",
+                "source.shell",
                 "string",
-                "text",
+                // "text",
                 "string.quoted.double.go",
                 "string.quoted.raw.go",
                 "string.quoted.single.go"
@@ -556,6 +557,26 @@
             "settings": {
                 "foreground": "#17C6A3",
                 "fontStyle": ""
+            }
+        },
+        {
+            "name": "Text",
+            "scope": [
+                "text",
+            ],
+            "settings": {
+                "foreground": "#ffffff",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Heading",
+            "scope": [
+                "entity.name.section.markdown",
+            ],
+            "settings": {
+                "foreground": "#ffffff",
+                "fontStyle": "bold underline"
             }
         },
         {
